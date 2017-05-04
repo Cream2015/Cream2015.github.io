@@ -1,0 +1,68 @@
+.mynav a{
+    color: #fff;
+}
+.mynav{
+    background-color: #030303;
+}
+.banner{
+    margin-top: 64px;
+    background-color: #FF6762;
+    background: url('../images/piano.jpg') center no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.banner-content{
+    height: 100%;
+    position: relative;
+}
+.title-h1{
+    color: #fff;
+    font-family: '微软雅黑';
+    position: absolute;
+    top: 50%;
+    margin-top: -60px;
+    width: 100%;
+    text-align: center;
+}
+.title-h1 a,a:visited{
+    color: white;
+}
+.title-h1 a:hover,a:visited,a:active,a:link{
+    text-decoration: none;
+}
+@media(max-width:768px){
+    .title-h1{
+        font-size: 35px;
+    }
+}
+.content1{
+    background-color: #83E3B4;
+    width: 100%;
+    overflow: hidden;
+}
+.content2{
+    background-color: #F8BF3A;
+    width: 100%;
+    overflow: hidden;
+}
+.content3{
+    background-color: #FF6839;
+    width: 100%;
+    overflow: hidden;
+}
+.content4{
+    background-color: #12ADF2;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+/*blog-footer start*/
+.blog-footer{background-color:rgb(50,50,50);border-top:5px solid #1AA194;}
+.blog-footer-content{max-height:82px;}
+.blog-footer-content .text-left{color:#fff;line-height:82px;}
+.blog-footer-content .text-right{line-height:82px;}
+.blog-footer-content .text-right a{color:#fff;padding-left:10px;}
+@media(max-width:768px){.blog-footer-content .text-left{line-height:60px;}.blog-footer-content .text-right{text-align:left;line-height:20px;margin-bottom:20px;}.blog-footer-content .text-right a{padding-left:0px;padding-right:10px;}}
+/*blog-footer end*/
